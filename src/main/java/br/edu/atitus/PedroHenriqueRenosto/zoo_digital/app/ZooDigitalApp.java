@@ -3,9 +3,7 @@ package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.app;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-//... O restante do código da classe ZooDigitalApp
 
-// Linha 3: Importa todas as CLASSES DE ANIMAIS (Animal, Leao, Cobra, etc.)
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Aguia;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Animal;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Camaleao;
@@ -19,7 +17,6 @@ import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Salmao;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Tartaruga;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Tubarao;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais.Urso;
-// Linha 4: Importa todas as INTERFACES (Corredor, Nadador, Voador, Predador)
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Corredor;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Nadador;
 import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Predador;
