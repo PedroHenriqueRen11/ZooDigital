@@ -1,15 +1,15 @@
-package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais;
+package br.edu.atitus.pedro_henrique_renosto.zoo_digital.animais;
 
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Corredor;
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Nadador;
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Predador;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.corredor;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.nadador;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.predador;
 
-public class Jacare extends Reptil implements Nadador, Corredor, Predador { 
-    public Jacare(String nome, int idade) {
+public class jacare extends reptil implements nadador, corredor, predador { 
+    public jacare(String nome, int idade) {
         super(nome, idade);
     }
     @Override
-    public void emitirSom() {
+    public void emitir_som() {
         System.out.println("O Jacaré fez um rugido gutural (Croc!).");
     }
     @Override

@@ -1,16 +1,16 @@
-package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais;
+package br.edu.atitus.pedro_henrique_renosto.zoo_digital.animais;
 
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Corredor;
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Nadador;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.corredor;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.nadador;
 
-public class Pinguim extends Ave implements Nadador, Corredor { 
+public class pinguim extends ave implements nadador, corredor { 
     
-    public Pinguim(String nome, int idade) {
+    public pinguim(String nome, int idade) {
         super(nome, idade);
     }
 
     @Override
-    public void emitirSom() {
+    public void emitir_som() {
         System.out.println("O Pinguim grasnou: Aaaark!");
     }
     

@@ -1,14 +1,14 @@
-package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais;
+package br.edu.atitus.pedro_henrique_renosto.zoo_digital.animais;
 
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Corredor;
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Nadador;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.corredor;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.nadador;
 
-public class Pato extends Ave implements Nadador, Corredor { 
-    public Pato(String nome, int idade) {
+public class pato extends ave implements nadador, corredor { 
+    public pato(String nome, int idade) {
         super(nome, idade);
     }
     @Override
-    public void emitirSom() {
+    public void emitir_som() {
         System.out.println("O Pato grasnou: Quack! Quack!");
     }
     @Override

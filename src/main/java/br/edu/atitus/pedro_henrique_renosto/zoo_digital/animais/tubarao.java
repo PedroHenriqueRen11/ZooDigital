@@ -1,14 +1,14 @@
-package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais;
+package br.edu.atitus.pedro_henrique_renosto.zoo_digital.animais;
 
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Nadador;
-import br.edu.atitus.PedroHenriqueRenosto.zoo_digital.comportamentos.Predador;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.nadador;
+import br.edu.atitus.pedro_henrique_renosto.zoo_digital.comportamentos.predador;
 
-public class Tubarao extends Peixe implements Nadador, Predador { 
-    public Tubarao(String nome, int idade) {
+public class tubarao extends peixe implements nadador, predador { 
+    public tubarao(String nome, int idade) {
         super(nome, idade);
     }
     @Override
-    public void emitirSom() {
+    public void emitir_som() {
         System.out.println("O Tubarão não emite som, mas a água treme.");
     }
     @Override

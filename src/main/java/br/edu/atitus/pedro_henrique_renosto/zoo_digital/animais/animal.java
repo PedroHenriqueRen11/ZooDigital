@@ -1,27 +1,27 @@
-package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais;
+package br.edu.atitus.pedro_henrique_renosto.zoo_digital.animais;
 
 import org.apache.commons.lang3.StringUtils; 
 
-public abstract class Animal {
+public abstract class animal {
     private static int contador = 0; 
     
     private String nome;
     private int idade;
     
-    public Animal(String nome, int idade) {
+    public animal(String nome, int idade) {
         this.nome = StringUtils.capitalize(nome); 
         this.idade = idade;
-        Animal.contador++;
+        animal.contador++;
     }
     
-    public abstract void emitirSom();
+    public abstract void emitir_som();
     public abstract void comer();
 
-    public String getNome() { return nome; }
-    public int getIdade() { return idade; }
-    public static int getContador() { return contador; }
+    public String get_nome() { return nome; }
+    public int geticdade() { return idade; }
+    public static int get_contador() { return contador; }
 
-    public void exibirDetalhes() {
+    public void exibir_detalhes() {
         System.out.printf("Nome: %s, Idade: %d, Espécie: %s\n", this.nome, this.idade, this.getClass().getSimpleName());
     }
 }

@@ -1,8 +1,8 @@
-package br.edu.atitus.PedroHenriqueRenosto.zoo_digital.animais;
+package br.edu.atitus.pedro_henrique_renosto.zoo_digital.animais;
 
-public abstract class Reptil extends Animal {
+public abstract class reptil extends animal {
     
-    public Reptil(String nome, int idade) {
+    public reptil(String nome, int idade) {
         super(nome, idade); 
     }
 
